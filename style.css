@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+body{
+  background-color: #121212;
+  color: #fff;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  height: 100vh;
+  font-family: Raleway;
+}
+header{
+  font-size: 2rem;
+  text-align: center;
+}
+#container{
+  justify-content: space-evenly;  
+}
+i[index]{
+  font-size: 11rem;
+  margin: 3vh 4vw;
+}
+i[index]:hover{
+  transition: color .5s linear;
+  color: #f60;
+}
